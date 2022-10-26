@@ -1,0 +1,374 @@
+/* mediaqueries */
+
+
+@media only screen and (min-device-width: 992px) and (max-device-width:1199px) {
+  .centered {
+    font-size: 21px !important;
+
+  }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width:991px) {
+  .centered {
+    font-size: 16px !important;
+  }
+
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width:767px) {
+  .centered {
+    font-size: 11px !important;
+  }
+
+}
+
+@media only screen and (max-device-width:575px) {
+  .centered {
+    font-size: 6px !important;
+  }
+
+}
+
+
+@media (min-width: 600px) {
+
+  .grid-container{
+    grid-template-columns: repeat(2, 1fr) !important;
+    
+  }
+
+  
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .grid4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container{
+    grid-template-columns: repeat(3, 1fr) !important;
+    
+  }
+  
+  .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .grid4 {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .grid3{
+    grid-template-columns: repeat(1, 1fr) !important;
+  
+  }
+  .videocp {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+  .grids3{
+    margin-top: 30px !important;
+  }
+  .grid-container{
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+/* media queries end */
+
+
+
+/* navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 13px;
+
+
+
+}
+
+.fa-search {
+  margin-right: 15px;
+}
+
+.navright {
+  float: right;
+
+}
+
+li {
+  display: inline;
+
+  margin-top: 10px;
+
+}
+
+a {
+  text-decoration: none;
+  margin: 5px 5px 5px 5px;
+  color: gray;
+  font-family: cursive;
+}
+
+/* navbar end */
+
+
+
+/* topimage */
+
+.topimage {
+  width: 100%;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 27px;
+  font-family: cursive;
+}
+
+.centered2 {
+
+  font-family: cursive;
+  width: 100%;
+}
+
+.centered3 {
+
+  border: none;
+
+  font-size: 16px;
+  width: 162px;
+  color: white;
+  height: 51px;
+  background-color: deepskyblue;
+  font-family: cursive;
+}
+
+
+
+/* section1 */
+
+.text {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.text2 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 27px;
+  width: 57%;
+  font-size: 20px;
+  margin-left: 24%;
+
+}
+
+
+.grid-container {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+
+}
+
+.card {
+
+  padding: 20px;
+
+
+  margin-top: 41px;
+}
+
+.section1pa {
+  margin-top: 0px;
+  font-size: 15px;
+
+}
+
+.sec1pa2 {
+  display: flex;
+  margin-top: 0px;
+  background-color: silver;
+  border-radius: 12px;
+}
+
+.fa-share {
+  margin-left: 10px;
+}
+
+
+
+/* Feature Section */
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+
+}
+
+.grids {
+
+  margin-top: 40px;
+
+
+}
+
+.featurespa {
+  margin: 0 auto;
+  width: 331px;
+}
+
+
+/* benefits section */
+.grid2 {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+
+}
+
+.grids2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.benefits {
+  margin-left: 80px;
+  text-align: left;
+
+}
+
+
+/* clip mine video collection section  */
+
+.grid3 {
+  position: relative;
+  display: grid;
+  padding: 61px;
+  column-gap: 100px;
+
+  grid-template-columns: auto auto;
+
+
+
+}
+
+.grids3 {
+  position: relative;
+
+}
+
+.videocimg {
+  width: 100%;
+
+}
+
+.videocp {
+  position: absolute;
+  left: 40%;
+  top: 38%;
+
+}
+
+
+.videospara {
+
+  width: 45%;
+  margin-left: 27%;
+  text-align: center;
+}
+
+
+/* clipmine user section */
+
+.userbg {
+  background-color: silver;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 100px;
+  margin-left: 10%;
+
+}
+
+.userimg {
+  width: 70%;
+}
+
+
+/* tagsection */
+
+.searchbar {
+  width: 34%;
+  height: 36px;
+  border-color: lightgrey;
+}
+
+.searchbardiv {
+  margin-top: 53px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tagbtn {
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+
+}
+
+
+
+/* footer */
+
+.footer {
+  text-align: center;
+  background-color: silver;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+
+
+}
+
+.footerimg {
+  width: 70%;
+}
